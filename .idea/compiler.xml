@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="addressbook-web-tests_main" target="1.8" />
+      <module name="addressbook-web-tests_test" target="1.8" />
+      <module name="addressbook-web_main" target="1.8" />
+      <module name="addressbook-web_test" target="1.8" />
+      <module name="addressbook_main" target="1.8" />
+      <module name="addressbook_test" target="1.8" />
+      <module name="QA-Sandbox_main" target="1.8" />
+      <module name="QA-Sandbox_test" target="1.8" />
+      <module name="Sandbox_main" target="1.8" />
+      <module name="Sandbox_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
