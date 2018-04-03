@@ -53,6 +53,7 @@
     <orderEntry type="library" name="Gradle: xml-apis:xml-apis:1.4.01" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.websocket:websocket-api:9.2.15.v20160210" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.4" level="project" />
+    <orderEntry type="module" module-name="addressbook-web-tests_test" scope="TEST" />
   </component>
   <component name="TestModuleProperties" production-module="addressbook-web_main" />
 </module>
