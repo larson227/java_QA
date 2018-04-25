@@ -1,12 +1,13 @@
 package ru.stqa.pfr.addressbook.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.stqa.pfr.addressbook.model.ContactData;
 
 public class ContactHelper extends HelperBase {
 
-    public ContactHelper(FirefoxDriver wd) {
+    public ContactHelper(WebDriver wd) {
         super(wd);
     }
 
@@ -28,7 +29,8 @@ public class ContactHelper extends HelperBase {
         type(By.name("address"), contactData.getAddress());
     }
     public void editContact(){
-        click(By.xpath("//table[@id='maintable']/tbody/tr[4]/td[8]/a/img"));
+//        click(By.xpath("//table[@id='maintable']/tbody/tr[4]/td[8]/a/img"));
+        click(By.cssSelector("img[alt='Edit']"));
     }
 
     public void createNewGroup() {

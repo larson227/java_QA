@@ -1,11 +1,12 @@
 package ru.stqa.pfr.addressbook.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class NaviagationHelper extends HelperBase {
 
-    public NaviagationHelper(FirefoxDriver wd) {
+    public NaviagationHelper(WebDriver wd) {
         super(wd);
     }
 
