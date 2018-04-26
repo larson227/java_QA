@@ -6,10 +6,11 @@ import ru.stqa.pfr.addressbook.model.ContactData;
 public class ContactModification extends TestBase {
     @Test
     public void testModificationContacts(){
-        app.getcontactHelper().selectContact();
+        app.getNaviagationHelper().gotoHomePage();
+//        app.getcontactHelper().selectContact();
         app.getcontactHelper().editContact();
-        app.getcontactHelper().fillContactPage(new ContactData("contact", "contact2", "contact3", "contact4", "titlecontact", "company", "address"));
+        app.getcontactHelper().fillContactPage(new ContactData("contact", "contact2", "contact3", "contact4", "titlecontact", "company", "address", null),false);
         app.getcontactHelper().updateContact();
-        app.getcontactHelper().returnToHomePageWithContact();
+        app.getcontactHelper().returtToHomePage();
     }
 }
